@@ -150,7 +150,7 @@ program
   .option('--ollama-url <url>', 'Ollama server URL', 'http://localhost:11434')
   .option('-b, --branch <branch>', 'Branch to rewrite (defaults to current branch)')
   .option('-d, --dry-run', 'Show what would be changed without modifying repository')
-  .option('-v, --verbose', 'Show detailed output')
+  .option('-v, --verbose', 'Show detailed output including diffs and file changes')
   .option('--max-commits <number>', 'Process only the last N commits', parseInt)
   .option('--skip-backup', 'Skip creating a backup branch (not recommended)')
   .option('--no-skip-well-formed', 'Process all commits, even well-formed ones')
@@ -239,6 +239,9 @@ ${chalk.bold('Examples:')}
   
   ${chalk.gray('# Process all commits, including well-formed ones')}
   $ git-rewrite-commits --no-skip-well-formed
+  
+  ${chalk.gray('# Show detailed output with diffs')}
+  $ git-rewrite-commits --verbose --max-commits 5
   
   ${chalk.gray('# Set custom quality threshold (default is 7)')}
   $ git-rewrite-commits --min-quality-score 8

@@ -52,21 +52,23 @@ ollama serve
 
 ## Features
 
-- **Cross-Platform**: Full support for Windows, macOS, and Linux
-- **AI-Powered**: Uses OpenAI GPT or local models via Ollama to generate meaningful commit messages
-- **Local AI Support**: Run completely offline with Ollama and local models
-- **One-Command Hook Setup**: Install or update AI commit message hooks instantly with `npx git-rewrite-commits --install-hooks`
-- **Smart Detection**: Automatically skips well-formed commits (can be disabled)
-- **Quality Scoring**: Assesses commit quality and only fixes broken messages
-- **Custom Templates**: Define your own commit format with `--template`
-- **Custom Prompts**: Override AI behavior with `--prompt` for unique styles
-- **Multi-language**: Generate messages in 20+ languages
-- **Conventional Commits**: Follows conventional commit standards (feat, fix, docs, etc.)
-- **Safe**: Automatically creates backup branches before rewriting
-- **Flexible**: Supports dry-run mode to preview changes
-- **Customizable**: Choose your preferred AI model and processing options
-- **Progress Tracking**: Real-time progress indicators with colored output
-- **Efficient**: Process only the last N commits for faster operation
+- **🤖 AI-powered commit message generation** using OpenAI GPT or local Ollama models
+- **♻️ Rewrite entire git history** with better commit messages
+- **📝 Conventional commits** format (feat, fix, chore, etc.)
+- **🌍 Multi-language support** - generate commits in any language
+- **🎯 Smart filtering** - skip already well-formed commits
+- **🔒 Local AI option** with Ollama - no data leaves your machine
+- **🪝 Git hooks integration** - automatic AI messages on every commit
+- **💡 Intelligent analysis** of code changes to generate meaningful messages
+- **📦 Batch processing** with rate limiting
+- **🔄 Safe operation** with automatic backup branches
+- **🎨 Custom templates** for team-specific formats
+- **✨ Quality scoring** to identify commits that need improvement
+- **🔍 Verbose mode** with diff preview and detailed processing information
+- **🎭 Custom prompts** - Override AI behavior with `--prompt` for unique styles
+- **🏃 Efficient processing** - Process only the last N commits with `--max-commits`
+- **👀 Dry-run mode** - Preview changes before applying them
+- **📊 Progress tracking** - Real-time progress indicators with colored output
 
 ## Installation
 
