@@ -7,8 +7,11 @@
 [![npm version](https://img.shields.io/npm/v/git-rewrite-commits.svg)](https://www.npmjs.com/package/git-rewrite-commits)
 [![Documentation](https://img.shields.io/badge/docs-live-blue)](https://f.github.io/git-rewrite-commits/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Blog Post](https://img.shields.io/badge/blog-read-orange)](https://blog.fka.dev/blog/2025-11-16-git-rewrite-commits-fix-your-messy-commit-history-with-ai/)
 
 Automatically rewrite your entire git commit history with better, conventional commit messages using AI. Perfect for cleaning up messy commit histories before open-sourcing projects or improving repository maintainability.
+
+📖 **[Read the blog post: Fix Your Messy Commit History with AI](https://blog.fka.dev/blog/2025-11-16-git-rewrite-commits-fix-your-messy-commit-history-with-ai/)**
 
 ## Important Disclaimer
 
